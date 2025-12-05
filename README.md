@@ -1,11 +1,11 @@
 # SW Test 1.3: Password Validator
 
-โปรเจกต์นี้เป็นไลบรารี Python สำหรับตรวจสอบความถูกต้องของรหัสผ่าน (Password Validator) 
-โดยใช้ Multiple Pass Loop 
-ออกแบบด้วยหลักการ Object-Oriented Programming (OOP) 
-
+โปรเจกต์นี้เป็นไลบรารี Python สำหรับตรวจสอบความถูกต้องของรหัสผ่าน (Password Validator)
+โดยใช้ Single Pass Loop
+ออกแบบด้วยหลักการ Object-Oriented Programming (OOP)
 
 ## เงื่อนไขรหัสผ่าน (Password Requirements)
+
 รหัสผ่านที่ถูกต้องจะต้องผ่านเงื่อนไขดังนี้:
 
 1.  **ความยาว**: ต้องมีความยาวระหว่าง 8 ถึง 20 ตัวอักษร
@@ -16,4 +16,5 @@
 6.  **ตัวอักษรที่อนุญาต**: ห้ามใช้อักขระอื่นนอกเหนือจากที่ระบุข้างต้น
 
 ---
-*Software Testing Lab - SW Test 1.3*
+
+_Software Testing Lab - SW Test 1.3_
