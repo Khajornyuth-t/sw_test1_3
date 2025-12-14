@@ -35,7 +35,7 @@ def main():
     try:
         pw = input("Enter password: ")
     except KeyboardInterrupt:
-        print("\nInput cancelled by user")
+        #print("\nInput cancelled by user")
         return
     
     rep = validator.validate(pw)
