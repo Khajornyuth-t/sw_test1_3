@@ -32,9 +32,13 @@ def showReport(rep):
 def main():
     validator = PasswordValidator()
 
-    pw = input("Enter password: ")
+    try:
+        pw = input("Enter password: ")
+    except KeyboardInterrupt:
+        print("\nInput cancelled by user")
+        return
+    
     rep = validator.validate(pw)
-
     showReport(rep)
 
 
